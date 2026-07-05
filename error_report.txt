@@ -1,0 +1,17 @@
+本次新增 16 条错误记录:
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: g_dbus_connection_emit_signal: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Jul  4 15:46:27 inv gnome-shell[1579]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Jul  4 15:49:34 inv gnome-shell[1579]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Jul  4 15:49:34 inv gnome-shell[1579]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Jul  4 15:49:34 inv gnome-shell[1579]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Jul  4 15:49:34 inv gnome-shell[1579]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Jul  4 15:49:34 inv gnome-shell[1579]: cr_parser_new_from_buf: assertion 'a_buf && a_len' failed
+Jul  4 15:49:34 inv gnome-shell[1579]: cr_declaration_parse_list_from_buf: assertion 'parser' failed
+Jul  4 15:49:34 inv org.gnome.Nautilus[3958]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'

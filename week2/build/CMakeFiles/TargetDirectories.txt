@@ -1,0 +1,4 @@
+/media/sf_Linux_Share/Robot/week2/build/CMakeFiles/sensor_mt.dir
+/media/sf_Linux_Share/Robot/week2/build/CMakeFiles/sensor_mt_opt.dir
+/media/sf_Linux_Share/Robot/week2/build/CMakeFiles/edit_cache.dir
+/media/sf_Linux_Share/Robot/week2/build/CMakeFiles/rebuild_cache.dir
