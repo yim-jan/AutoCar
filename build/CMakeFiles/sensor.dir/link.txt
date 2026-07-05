@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sensor.dir/sensor.cpp.o -o sensor 
