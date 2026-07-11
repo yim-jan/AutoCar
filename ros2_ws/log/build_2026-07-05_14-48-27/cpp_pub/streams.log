@@ -1,0 +1,44 @@
+[0.061s] Invoking command in '/media/sf_Linux_Share/Robot/ros2_ws/build/cpp_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/sf_Linux_Share/Robot/ros2_ws/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/media/sf_Linux_Share/Robot/ros2_ws/install/cpp_pub
+[0.185s] -- The C compiler identification is GNU 13.3.0
+[0.295s] -- The CXX compiler identification is GNU 13.3.0
+[0.341s] -- Detecting C compiler ABI info
+[0.697s] -- Detecting C compiler ABI info - done
+[0.732s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.734s] -- Detecting C compile features
+[0.735s] -- Detecting C compile features - done
+[0.763s] -- Detecting CXX compiler ABI info
+[1.196s] -- Detecting CXX compiler ABI info - done
+[1.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.293s] -- Detecting CXX compile features
+[1.295s] -- Detecting CXX compile features - done
+[1.363s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.573s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.902s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.102s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.156s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.620s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.641s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.857s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.893s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.142s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.188s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.443s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.445s] -- Configured cppcheck include dirs: 
+[3.446s] -- Configured cppcheck exclude dirs and/or files: 
+[3.459s] -- Added test 'lint_cmake' to check CMake code style
+[3.490s] -- Added test 'uncrustify' to check C / C++ code style
+[3.492s] -- Configured uncrustify additional arguments: 
+[3.498s] -- Added test 'xmllint' to check XML markup files
+[3.537s] -- Configuring done (3.5s)
+[3.673s] -- Generating done (0.1s)
+[5.233s] -- Build files have been written to: /media/sf_Linux_Share/Robot/ros2_ws/build/cpp_pub
+[5.241s] Invoked command in '/media/sf_Linux_Share/Robot/ros2_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/sf_Linux_Share/Robot/ros2_ws/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/media/sf_Linux_Share/Robot/ros2_ws/install/cpp_pub
+[5.246s] Invoking command in '/media/sf_Linux_Share/Robot/ros2_ws/build/cpp_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_Linux_Share/Robot/ros2_ws/build/cpp_pub -- -j2 -l2
+[5.317s] CMakeFiles/publisher.dir/build.make:67: CMakeFiles/publisher.dir/progress.make: No such file or directory
+[5.318s] gmake[2]: *** No rule to make target 'CMakeFiles/publisher.dir/progress.make'.  Stop.
+[5.319s] gmake[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/publisher.dir/all] Error 2
+[5.321s] gmake: *** [Makefile:146: all] Error 2
+[5.322s] Invoked command in '/media/sf_Linux_Share/Robot/ros2_ws/build/cpp_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_Linux_Share/Robot/ros2_ws/build/cpp_pub -- -j2 -l2

@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.000344] (-) JobUnselected: {'identifier': 'cpp_pub'}
+[0.000415] (-) JobUnselected: {'identifier': 'py_sub'}
+[0.000468] (sensor_processor) JobQueued: {'identifier': 'sensor_processor', 'dependencies': OrderedDict()}
+[0.003175] (sensor_processor) JobStarted: {'identifier': 'sensor_processor'}
+[0.039677] (sensor_processor) JobProgress: {'identifier': 'sensor_processor', 'progress': 'cmake'}
+[0.043843] (sensor_processor) JobProgress: {'identifier': 'sensor_processor', 'progress': 'build'}
+[0.043886] (sensor_processor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/Robot/ros2_ws/build/sensor_processor', '--', '-j2', '-l2'], 'cwd': '/home/ros/Robot/ros2_ws/build/sensor_processor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'SSH_CLIENT': '192.168.56.1 56782 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ros/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/bin/helpers/browser.sh', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/Robot/ros2_ws', 'TERM_PROGRAM_VERSION': '1.128.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3b0ed939-a50f-487c-a5d1-be138b7fcd5f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros/Robot/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '64', 'PATH': '/home/ros/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ros/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8a3637ea9a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros/Robot/ros2_ws/build/sensor_processor', 'COPILOT_DEBUG_NONCE': '84f30bbe99e8820266afc7300bbcc755', 'SSH_CONNECTION': '192.168.56.1 56782 192.168.56.102 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy'}), 'shell': False}
+[0.103975] (-) TimerEvent: {}
+[0.205374] (-) TimerEvent: {}
+[0.255842] (sensor_processor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o\x1b[0m\n'}
+[0.306629] (-) TimerEvent: {}
+[0.413722] (-) TimerEvent: {}
+[0.555716] (-) TimerEvent: {}
+[0.656647] (-) TimerEvent: {}
+[0.759546] (-) TimerEvent: {}
+[0.861471] (-) TimerEvent: {}
+[0.962845] (-) TimerEvent: {}
+[1.066219] (-) TimerEvent: {}
+[1.133031] (sensor_processor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.137814] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[1.138331] (sensor_processor) StderrLine: {'line': b'    3 |     std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<std::thread> workers;         // \xe5\xb7\xa5\xe4\xba\xba\xe7\xba\xbf\xe7\xa8\x8b\xe4\xbb\xac\n'}
+[1.140779] (sensor_processor) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.140963] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.143872] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <vector>\x1b[m\x1b[K\n'}
+[1.144611] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.145450] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqueue\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[1.147955] (sensor_processor) StderrLine: {'line': b'    4 |     std::\x1b[01;31m\x1b[Kqueue\x1b[m\x1b[K<std::shared_ptr<std::function<void()>>> tasks;  // \xe4\xbb\xbb\xe5\x8a\xa1\xe9\x98\x9f\xe5\x88\x97\n'}
+[1.148938] (sensor_processor) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.150001] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::queue\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<queue>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <queue>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.150300] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <queue>\x1b[m\x1b[K\n'}
+[1.150456] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.150677] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.150832] (sensor_processor) StderrLine: {'line': b'    6 |     std::\x1b[01;31m\x1b[Kmutex\x1b[m\x1b[K queue_mutex;\n'}
+[1.150976] (sensor_processor) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.151116] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::mutex\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<mutex>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <mutex>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.151263] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <mutex>\x1b[m\x1b[K\n'}
+[1.151404] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.151537] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcondition_variable\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.151671] (sensor_processor) StderrLine: {'line': b'    7 |     std::\x1b[01;31m\x1b[Kcondition_variable\x1b[m\x1b[K condition;\n'}
+[1.151807] (sensor_processor) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.151939] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::condition_variable\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<condition_variable>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <condition_variable>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.152096] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <condition_variable>\x1b[m\x1b[K\n'}
+[1.152227] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.153676] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:12:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knum_threads\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.156050] (sensor_processor) StderrLine: {'line': b'   12 |     SimpleThreadPool\x1b[34m\x1b[K(\x1b[m\x1b[Ksize_t\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Knum_threads\x1b[m\x1b[K) : stop(false) {\n'}
+[1.156329] (sensor_processor) StderrLine: {'line': b'      |                     \x1b[34m\x1b[K~\x1b[m\x1b[K      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.156455] (sensor_processor) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.156567] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:46:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.156693] (sensor_processor) StderrLine: {'line': b'   46 |     \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K pendingTasks() {\n'}
+[1.156801] (sensor_processor) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.156908] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.157020] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[1.157125] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.157231] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleThreadPool::\x1b[01;32m\x1b[Kenqueue\x1b[m\x1b[K(F&&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.157400] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunique_lock\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.157522] (sensor_processor) StderrLine: {'line': b'   41 |             std::\x1b[01;31m\x1b[Kunique_lock\x1b[m\x1b[K<std::mutex> lock(queue_mutex);\n'}
+[1.157629] (sensor_processor) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.157733] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::unique_lock\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<mutex>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <mutex>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.157839] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.157951] (sensor_processor) StderrLine: {'line': b'   41 |             std::unique_lock<std::\x1b[01;31m\x1b[Kmutex\x1b[m\x1b[K> lock(queue_mutex);\n'}
+[1.158053] (sensor_processor) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.158157] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::mutex\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<mutex>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <mutex>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.158389] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqueue_mutex\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.158516] (sensor_processor) StderrLine: {'line': b'   41 |             std::unique_lock<std::mutex> lock(\x1b[01;31m\x1b[Kqueue_mutex\x1b[m\x1b[K);\n'}
+[1.158619] (sensor_processor) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.161036] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Klock\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Klock\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.161621] (sensor_processor) StderrLine: {'line': b'   41 |             std::unique_lock<std::mutex> \x1b[01;31m\x1b[Klock\x1b[m\x1b[K(queue_mutex);\n'}
+[1.161717] (sensor_processor) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.161806] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K(if you use \xe2\x80\x98\x1b[01m\x1b[K-fpermissive\x1b[m\x1b[K\xe2\x80\x99, G++ will accept your code, but allowing the use of an undeclared name is deprecated)\n'}
+[1.161895] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktasks\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktask\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.161983] (sensor_processor) StderrLine: {'line': b'   42 |             \x1b[01;31m\x1b[Ktasks\x1b[m\x1b[K.emplace(std::make_shared<std::function<void()>>(std::move(task)));\n'}
+[1.162068] (sensor_processor) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.162150] (sensor_processor) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ktask\x1b[m\x1b[K\n'}
+[1.162231] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmake_shared\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162313] (sensor_processor) StderrLine: {'line': b'   42 |             tasks.emplace(std::\x1b[01;31m\x1b[Kmake_shared\x1b[m\x1b[K<std::function<void()>>(std::move(task)));\n'}
+[1.162407] (sensor_processor) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.162489] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::make_shared\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<memory>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <memory>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.162572] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <memory>\x1b[m\x1b[K\n'}
+[1.162653] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.162733] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfunction\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.162817] (sensor_processor) StderrLine: {'line': b'   42 |             tasks.emplace(std::make_shared<std::\x1b[01;31m\x1b[Kfunction\x1b[m\x1b[K<void()>>(std::move(task)));\n'}
+[1.162900] (sensor_processor) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.162988] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::function\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<functional>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <functional>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.163874] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <functional>\x1b[m\x1b[K\n'}
+[1.165331] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.165961] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmove\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.166182] (sensor_processor) StderrLine: {'line': b'   42 |             tasks.emplace(std::make_shared<std::function<void()>>(std::\x1b[01;31m\x1b[Kmove\x1b[m\x1b[K(task)));\n'}
+[1.166386] (-) TimerEvent: {}
+[1.166706] (sensor_processor) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.166942] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<utility>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <utility>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.167170] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <utility>\x1b[m\x1b[K\n'}
+[1.167368] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.167564] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcondition\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.167760] (sensor_processor) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Kcondition\x1b[m\x1b[K.notify_one();  // \xe5\x8f\xab\xe9\x86\x92\xe4\xb8\x80\xe4\xb8\xaa\xe7\x9d\xa1\xe8\xa7\x89\xe7\x9a\x84\xe5\xb7\xa5\xe4\xba\xba\n'}
+[1.167956] (sensor_processor) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.168593] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleThreadPool::\x1b[01;32m\x1b[Kshutdown\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.168853] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunique_lock\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.169053] (sensor_processor) StderrLine: {'line': b'   52 |             std::\x1b[01;31m\x1b[Kunique_lock\x1b[m\x1b[K<std::mutex> lock(queue_mutex);\n'}
+[1.169249] (sensor_processor) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.169380] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::unique_lock\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<mutex>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <mutex>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.169456] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.169525] (sensor_processor) StderrLine: {'line': b'   52 |             std::unique_lock<std::\x1b[01;31m\x1b[Kmutex\x1b[m\x1b[K> lock(queue_mutex);\n'}
+[1.169667] (sensor_processor) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.169737] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::mutex\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<mutex>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <mutex>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.169806] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqueue_mutex\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.169882] (sensor_processor) StderrLine: {'line': b'   52 |             std::unique_lock<std::mutex> lock(\x1b[01;31m\x1b[Kqueue_mutex\x1b[m\x1b[K);\n'}
+[1.170047] (sensor_processor) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.170693] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klock\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.170920] (sensor_processor) StderrLine: {'line': b'   52 |             std::unique_lock<std::mutex> \x1b[01;31m\x1b[Klock\x1b[m\x1b[K(queue_mutex);\n'}
+[1.171118] (sensor_processor) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.173762] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:55:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcondition\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.174530] (sensor_processor) StderrLine: {'line': b'   55 |         \x1b[01;31m\x1b[Kcondition\x1b[m\x1b[K.notify_all();\n'}
+[1.174784] (sensor_processor) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.174951] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthread\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.175074] (sensor_processor) StderrLine: {'line': b'   56 |         for (std::\x1b[01;31m\x1b[Kthread\x1b[m\x1b[K &worker : workers) {\n'}
+[1.175736] (sensor_processor) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.175954] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::thread\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<thread>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <thread>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.176216] (sensor_processor) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <thread>\x1b[m\x1b[K\n'}
+[1.176414] (sensor_processor) StderrLine: {'line': b'    1 | class SimpleThreadPool {\n'}
+[1.176545] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.176620] (sensor_processor) StderrLine: {'line': b'   56 |         for (std::thread &worker \x1b[01;31m\x1b[K:\x1b[m\x1b[K workers) {\n'}
+[1.176688] (sensor_processor) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.176755] (sensor_processor) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[1.176821] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kworker\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.176886] (sensor_processor) StderrLine: {'line': b'   56 |         for (std::thread &\x1b[01;31m\x1b[Kworker\x1b[m\x1b[K : workers) {\n'}
+[1.176993] (sensor_processor) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.177070] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.177139] (sensor_processor) StderrLine: {'line': b'   59 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.177205] (sensor_processor) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.177271] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.177337] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.177403] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.177476] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.177542] (sensor_processor) StderrLine: {'line': b'   56 |         for \x1b[01;36m\x1b[K(\x1b[m\x1b[Kstd::thread &worker : workers) {\n'}
+[1.177607] (sensor_processor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.177672] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.177737] (sensor_processor) StderrLine: {'line': b'   59 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.177802] (sensor_processor) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.503269] (-) TimerEvent: {}
+[1.886584] (-) TimerEvent: {}
+[2.351748] (-) TimerEvent: {}
+[2.827915] (-) TimerEvent: {}
+[2.929780] (-) TimerEvent: {}
+[3.035614] (-) TimerEvent: {}
+[3.139607] (-) TimerEvent: {}
+[3.340049] (-) TimerEvent: {}
+[3.531861] (-) TimerEvent: {}
+[4.023033] (-) TimerEvent: {}
+[4.146158] (-) TimerEvent: {}
+[4.250620] (-) TimerEvent: {}
+[4.354795] (-) TimerEvent: {}
+[4.518844] (-) TimerEvent: {}
+[6.397324] (-) TimerEvent: {}
+[6.508021] (-) TimerEvent: {}
+[6.608902] (-) TimerEvent: {}
+[6.723625] (-) TimerEvent: {}
+[6.835025] (-) TimerEvent: {}
+[6.941982] (-) TimerEvent: {}
+[7.043161] (-) TimerEvent: {}
+[7.256656] (-) TimerEvent: {}
+[7.399850] (-) TimerEvent: {}
+[7.501886] (-) TimerEvent: {}
+[8.011132] (-) TimerEvent: {}
+[8.114976] (-) TimerEvent: {}
+[8.566871] (-) TimerEvent: {}
+[8.569100] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImageProcessorNode::\x1b[01;32m\x1b[KImageProcessorNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.584059] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:9:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSimpleThreadPool::SimpleThreadPool(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.591945] (sensor_processor) StderrLine: {'line': b'    9 |     ImageProcessorNode() : Node("image_processor"), \x1b[01;31m\x1b[Kpool_(4)\x1b[m\x1b[K {\n'}
+[8.592312] (sensor_processor) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.592608] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KSimpleThreadPool::\x1b[01;32m\x1b[KSimpleThreadPool\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.593853] (sensor_processor) StderrLine: {'line': b'    1 | class \x1b[01;36m\x1b[KSimpleThreadPool\x1b[m\x1b[K {\n'}
+[8.595009] (sensor_processor) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.595846] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[8.595950] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr SimpleThreadPool::\x1b[01;32m\x1b[KSimpleThreadPool\x1b[m\x1b[K(const SimpleThreadPool&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.596042] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SimpleThreadPool&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.641248] (sensor_processor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.651231] (sensor_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[8.660273] (sensor_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175\x1b[m\x1b[K,\n'}
+[8.660374] (sensor_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:2\x1b[m\x1b[K:\n'}
+[8.660452] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[8.660523] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:17:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SimpleThreadPool\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KpendingTasks\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.660681] (sensor_processor) StderrLine: {'line': b'   17 |             RCLCPP_INFO(this->get_logger(), "\xe9\x98\x9f\xe5\x88\x97\xe7\xa7\xaf\xe5\x8e\x8b: %zu", pool_.\x1b[01;31m\x1b[KpendingTasks\x1b[m\x1b[K());\n'}
+[8.660755] (sensor_processor) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.683137] (-) TimerEvent: {}
+[8.794427] (-) TimerEvent: {}
+[8.897849] (-) TimerEvent: {}
+[9.000960] (-) TimerEvent: {}
+[9.154084] (-) TimerEvent: {}
+[9.201071] (sensor_processor) StderrLine: {'line': b'/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleThreadPool::\x1b[01;32m\x1b[Kenqueue\x1b[m\x1b[K(F&&) \x1b[35m\x1b[K[with F = ImageProcessorNode::ImageProcessorNode()::<lambda(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)>::<lambda()>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.206676] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:13:30:\x1b[m\x1b[K   required from here\n'}
+[9.206931] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klock\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::lock\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.207209] (sensor_processor) StderrLine: {'line': b'   41 |             std::unique_lock<std::mutex> lock(queue_mutex\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.207389] (sensor_processor) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.207638] (sensor_processor) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[Kstd::lock\x1b[m\x1b[K\n'}
+[9.208080] (sensor_processor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:21\x1b[m\x1b[K,\n'}
+[9.208350] (sensor_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K,\n'}
+[9.208594] (sensor_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K:\n'}
+[9.210671] (sensor_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/mutex:693:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::lock\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[9.218552] (sensor_processor) StderrLine: {'line': b'  693 |     \x1b[01;36m\x1b[Klock\x1b[m\x1b[K(_L1& __l1, _L2& __l2, _L3&... __l3)\n'}
+[9.218732] (sensor_processor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.266509] (-) TimerEvent: {}
+[9.367990] (-) TimerEvent: {}
+[9.471624] (-) TimerEvent: {}
+[9.582311] (-) TimerEvent: {}
+[9.686241] (-) TimerEvent: {}
+[9.864724] (-) TimerEvent: {}
+[9.969104] (-) TimerEvent: {}
+[10.069988] (-) TimerEvent: {}
+[10.171627] (-) TimerEvent: {}
+[10.298334] (-) TimerEvent: {}
+[11.280104] (-) TimerEvent: {}
+[11.383975] (-) TimerEvent: {}
+[11.548187] (-) TimerEvent: {}
+[11.732170] (-) TimerEvent: {}
+[11.839727] (-) TimerEvent: {}
+[12.038614] (-) TimerEvent: {}
+[12.139081] (-) TimerEvent: {}
+[12.239507] (-) TimerEvent: {}
+[12.384872] (-) TimerEvent: {}
+[12.488738] (-) TimerEvent: {}
+[12.589962] (-) TimerEvent: {}
+[12.797534] (-) TimerEvent: {}
+[13.009359] (-) TimerEvent: {}
+[13.249207] (-) TimerEvent: {}
+[13.360246] (-) TimerEvent: {}
+[13.488417] (-) TimerEvent: {}
+[13.604613] (-) TimerEvent: {}
+[14.427521] (-) TimerEvent: {}
+[14.737158] (-) TimerEvent: {}
+[14.788998] (sensor_processor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_processor.dir/build.make:76: CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o] Error 1\n'}
+[14.793654] (sensor_processor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processor.dir/all] Error 2\n'}
+[14.794143] (sensor_processor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.807840] (sensor_processor) CommandEnded: {'returncode': 2}
+[14.838207] (-) TimerEvent: {}
+[14.840111] (sensor_processor) JobEnded: {'identifier': 'sensor_processor', 'rc': 2}
+[14.852896] (-) EventReactorShutdown: {}

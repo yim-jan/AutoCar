@@ -1,0 +1,37 @@
+[1.977s] Invoking command in '/media/sf_Linux_Share/Robot/ros2_ws/src/py_sub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_sub build --build-base /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build install --record /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/install.log --install-scripts $base/lib/py_sub --single-version-externally-managed install_data
+[2.264s] running egg_info
+[2.267s] creating ../../build/py_sub/py_sub.egg-info
+[2.300s] writing ../../build/py_sub/py_sub.egg-info/PKG-INFO
+[2.308s] writing dependency_links to ../../build/py_sub/py_sub.egg-info/dependency_links.txt
+[2.311s] writing entry points to ../../build/py_sub/py_sub.egg-info/entry_points.txt
+[2.314s] writing requirements to ../../build/py_sub/py_sub.egg-info/requires.txt
+[2.316s] writing top-level names to ../../build/py_sub/py_sub.egg-info/top_level.txt
+[2.319s] writing manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[2.378s] reading manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[2.384s] writing manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[2.387s] running build
+[2.389s] running build_py
+[2.392s] creating /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build
+[2.392s] creating /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build/lib
+[2.395s] creating /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build/lib/py_sub
+[2.398s] copying py_sub/subscriber.py -> /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build/lib/py_sub
+[2.404s] copying py_sub/__init__.py -> /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build/lib/py_sub
+[2.411s] running install
+[2.419s] running install_lib
+[2.452s] creating /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages/py_sub
+[2.453s] copying /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build/lib/py_sub/subscriber.py -> /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages/py_sub
+[2.458s] copying /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build/lib/py_sub/__init__.py -> /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages/py_sub
+[2.463s] byte-compiling /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages/py_sub/subscriber.py to subscriber.cpython-312.pyc
+[2.470s] byte-compiling /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages/py_sub/__init__.py to __init__.cpython-312.pyc
+[2.475s] running install_data
+[2.477s] creating /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/share/ament_index
+[2.480s] creating /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/share/ament_index/resource_index
+[2.481s] creating /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/share/ament_index/resource_index/packages
+[2.483s] copying resource/py_sub -> /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/share/ament_index/resource_index/packages
+[2.487s] copying package.xml -> /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/share/py_sub
+[2.494s] running install_egg_info
+[2.514s] Copying ../../build/py_sub/py_sub.egg-info to /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages/py_sub-0.0.0-py3.12.egg-info
+[2.559s] running install_scripts
+[2.765s] Installing subscriber script to /media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/py_sub
+[2.772s] writing list of installed files to '/media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/install.log'
+[2.799s] Invoked command in '/media/sf_Linux_Share/Robot/ros2_ws/src/py_sub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sf_Linux_Share/Robot/ros2_ws/install/py_sub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_sub build --build-base /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/build install --record /media/sf_Linux_Share/Robot/ros2_ws/build/py_sub/install.log --install-scripts $base/lib/py_sub --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[0.062s] Invoking command in '/home/ros/Robot/ros2_ws/build/sensor_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros/Robot/ros2_ws/src/sensor_processor -DCMAKE_INSTALL_PREFIX=/home/ros/Robot/ros2_ws/install/sensor_processor
+[0.110s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.622s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.646s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.793s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.796s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.954s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.053s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.074s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.133s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.155s] -- Configuring done (1.0s)
+[1.660s] -- Generating done (0.4s)
+[1.678s] -- Build files have been written to: /home/ros/Robot/ros2_ws/build/sensor_processor
+[1.693s] Invoked command in '/home/ros/Robot/ros2_ws/build/sensor_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros/Robot/ros2_ws/src/sensor_processor -DCMAKE_INSTALL_PREFIX=/home/ros/Robot/ros2_ws/install/sensor_processor
+[1.696s] Invoking command in '/home/ros/Robot/ros2_ws/build/sensor_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2
+[1.988s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o[0m
+[2.110s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[2.113s]     2 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[2.113s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.114s] compilation terminated.
+[2.121s] gmake[2]: *** [CMakeFiles/image_processor.dir/build.make:76: CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o] Error 1
+[2.124s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processor.dir/all] Error 2
+[2.129s] gmake: *** [Makefile:146: all] Error 2
+[2.136s] Invoked command in '/home/ros/Robot/ros2_ws/build/sensor_processor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2

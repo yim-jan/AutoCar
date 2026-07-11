@@ -1,0 +1,3 @@
+/home/ros/Robot/train/build/CMakeFiles/threadpool.dir
+/home/ros/Robot/train/build/CMakeFiles/edit_cache.dir
+/home/ros/Robot/train/build/CMakeFiles/rebuild_cache.dir

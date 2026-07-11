@@ -1,0 +1,16 @@
+/home/ros/Robot/ros2_ws/install/sensor_processor/lib/sensor_processor/image_processor
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/ament_index/resource_index/package_run_dependencies/sensor_processor
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/ament_index/resource_index/parent_prefix_path/sensor_processor
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/ament_prefix_path.sh
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/ament_prefix_path.dsv
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/path.sh
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/path.dsv
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.bash
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.sh
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.zsh
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.dsv
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/package.dsv
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/ament_index/resource_index/packages/sensor_processor
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/cmake/sensor_processorConfig.cmake
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/cmake/sensor_processorConfig-version.cmake
+/home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/package.xml

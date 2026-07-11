@@ -1,0 +1,4 @@
+CMakeFiles/publisher.dir/build.make:67: CMakeFiles/publisher.dir/progress.make: No such file or directory
+gmake[2]: *** No rule to make target 'CMakeFiles/publisher.dir/progress.make'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

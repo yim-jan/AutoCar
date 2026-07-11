@@ -1,0 +1,153 @@
+[ 50%] Building CXX object CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o
+In file included from /home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:1:
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:3:10: error: ‘vector’ in namespace ‘std’ does not name a template type
+    3 |     std::vector<std::thread> workers;         // 工人线程们
+      |          ^~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+  +++ |+#include <vector>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:4:10: error: ‘queue’ in namespace ‘std’ does not name a template type
+    4 |     std::queue<std::shared_ptr<std::function<void()>>> tasks;  // 任务队列
+      |          ^~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::queue’ is defined in header ‘<queue>’; did you forget to ‘#include <queue>’?
+  +++ |+#include <queue>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:6:10: error: ‘mutex’ in namespace ‘std’ does not name a type
+    6 |     std::mutex queue_mutex;
+      |          ^~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::mutex’ is defined in header ‘<mutex>’; did you forget to ‘#include <mutex>’?
+  +++ |+#include <mutex>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:7:10: error: ‘condition_variable’ in namespace ‘std’ does not name a type
+    7 |     std::condition_variable condition;
+      |          ^~~~~~~~~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::condition_variable’ is defined in header ‘<condition_variable>’; did you forget to ‘#include <condition_variable>’?
+  +++ |+#include <condition_variable>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:12:28: error: expected ‘)’ before ‘num_threads’
+   12 |     SimpleThreadPool(size_t num_threads) : stop(false) {
+      |                     ~      ^~~~~~~~~~~~
+      |                            )
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:46:5: error: ‘size_t’ does not name a type
+   46 |     size_t pendingTasks() {
+      |     ^~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘size_t’ is defined in header ‘<cstddef>’; did you forget to ‘#include <cstddef>’?
+  +++ |+#include <cstddef>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp: In member function ‘void SimpleThreadPool::enqueue(F&&)’:
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:18: error: ‘unique_lock’ is not a member of ‘std’
+   41 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                  ^~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:18: note: ‘std::unique_lock’ is defined in header ‘<mutex>’; did you forget to ‘#include <mutex>’?
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:35: error: ‘mutex’ is not a member of ‘std’
+   41 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                                   ^~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:35: note: ‘std::mutex’ is defined in header ‘<mutex>’; did you forget to ‘#include <mutex>’?
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:47: error: ‘queue_mutex’ was not declared in this scope
+   41 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                                               ^~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:42: error: there are no arguments to ‘lock’ that depend on a template parameter, so a declaration of ‘lock’ must be available [-fpermissive]
+   41 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                                          ^~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:42: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:13: error: ‘tasks’ was not declared in this scope; did you mean ‘task’?
+   42 |             tasks.emplace(std::make_shared<std::function<void()>>(std::move(task)));
+      |             ^~~~~
+      |             task
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:32: error: ‘make_shared’ is not a member of ‘std’
+   42 |             tasks.emplace(std::make_shared<std::function<void()>>(std::move(task)));
+      |                                ^~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::make_shared’ is defined in header ‘<memory>’; did you forget to ‘#include <memory>’?
+  +++ |+#include <memory>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:49: error: ‘function’ is not a member of ‘std’
+   42 |             tasks.emplace(std::make_shared<std::function<void()>>(std::move(task)));
+      |                                                 ^~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::function’ is defined in header ‘<functional>’; did you forget to ‘#include <functional>’?
+  +++ |+#include <functional>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:72: error: ‘move’ is not a member of ‘std’
+   42 |             tasks.emplace(std::make_shared<std::function<void()>>(std::move(task)));
+      |                                                                        ^~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::move’ is defined in header ‘<utility>’; did you forget to ‘#include <utility>’?
+  +++ |+#include <utility>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:44:9: error: ‘condition’ was not declared in this scope
+   44 |         condition.notify_one();  // 叫醒一个睡觉的工人
+      |         ^~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp: In member function ‘void SimpleThreadPool::shutdown()’:
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:18: error: ‘unique_lock’ is not a member of ‘std’
+   52 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                  ^~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:18: note: ‘std::unique_lock’ is defined in header ‘<mutex>’; did you forget to ‘#include <mutex>’?
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:35: error: ‘mutex’ is not a member of ‘std’
+   52 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                                   ^~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:35: note: ‘std::mutex’ is defined in header ‘<mutex>’; did you forget to ‘#include <mutex>’?
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:47: error: ‘queue_mutex’ was not declared in this scope
+   52 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                                               ^~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:42: error: ‘lock’ was not declared in this scope
+   52 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                                          ^~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:55:9: error: ‘condition’ was not declared in this scope
+   55 |         condition.notify_all();
+      |         ^~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:19: error: ‘thread’ is not a member of ‘std’
+   56 |         for (std::thread &worker : workers) {
+      |                   ^~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1: note: ‘std::thread’ is defined in header ‘<thread>’; did you forget to ‘#include <thread>’?
+  +++ |+#include <thread>
+    1 | class SimpleThreadPool {
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:34: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   56 |         for (std::thread &worker : workers) {
+      |                                  ^
+      |                                  ::
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:27: error: ‘worker’ has not been declared
+   56 |         for (std::thread &worker : workers) {
+      |                           ^~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5: error: expected primary-expression before ‘}’ token
+   59 |     }
+      |     ^
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5: error: expected ‘;’ before ‘}’ token
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5: error: expected primary-expression before ‘}’ token
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5: error: expected ‘)’ before ‘}’ token
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:13: note: to match this ‘(’
+   56 |         for (std::thread &worker : workers) {
+      |             ^
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5: error: expected primary-expression before ‘}’ token
+   59 |     }
+      |     ^
+/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp: In constructor ‘ImageProcessorNode::ImageProcessorNode()’:
+/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:9:53: error: no matching function for call to ‘SimpleThreadPool::SimpleThreadPool(int)’
+    9 |     ImageProcessorNode() : Node("image_processor"), pool_(4) {
+      |                                                     ^~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7: note: candidate: ‘SimpleThreadPool::SimpleThreadPool()’
+    1 | class SimpleThreadPool {
+      |       ^~~~~~~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7: note:   candidate expects 0 arguments, 1 provided
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7: note: candidate: ‘constexpr SimpleThreadPool::SimpleThreadPool(const SimpleThreadPool&)’
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7: note:   no known conversion for argument 1 from ‘int’ to ‘const SimpleThreadPool&’
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175,
+                 from /home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:2:
+/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp: In lambda function:
+/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:17:68: error: ‘class SimpleThreadPool’ has no member named ‘pendingTasks’
+   17 |             RCLCPP_INFO(this->get_logger(), "队列积压: %zu", pool_.pendingTasks());
+      |                                                                    ^~~~~~~~~~~~
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp: In instantiation of ‘void SimpleThreadPool::enqueue(F&&) [with F = ImageProcessorNode::ImageProcessorNode()::<lambda(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)>::<lambda()>]’:
+/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:13:30:   required from here
+/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:58: error: ‘lock’ was not declared in this scope; did you mean ‘std::lock’?
+   41 |             std::unique_lock<std::mutex> lock(queue_mutex);
+      |                                                          ^
+      |                                                          std::lock
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:21,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25:
+/usr/include/c++/13/mutex:693:5: note: ‘std::lock’ declared here
+  693 |     lock(_L1& __l1, _L2& __l2, _L3&... __l3)
+      |     ^~~~
+gmake[2]: *** [CMakeFiles/image_processor.dir/build.make:76: CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

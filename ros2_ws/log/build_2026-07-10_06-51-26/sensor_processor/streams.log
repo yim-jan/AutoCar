@@ -1,0 +1,10 @@
+[0.041s] Invoking command in '/home/ros/Robot/ros2_ws/build/sensor_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2
+[0.268s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o[0m
+[0.629s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[0.630s]     4 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[0.630s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.631s] compilation terminated.
+[0.634s] gmake[2]: *** [CMakeFiles/image_processor.dir/build.make:76: CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o] Error 1
+[0.635s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processor.dir/all] Error 2
+[0.635s] gmake: *** [Makefile:146: all] Error 2
+[0.642s] Invoked command in '/home/ros/Robot/ros2_ws/build/sensor_processor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2

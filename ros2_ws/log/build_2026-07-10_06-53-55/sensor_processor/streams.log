@@ -1,0 +1,155 @@
+[0.040s] Invoking command in '/home/ros/Robot/ros2_ws/build/sensor_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2
+[0.252s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o[0m
+[1.133s] In file included from [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:1[m[K:
+[1.134s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:3:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[1.137s]     3 |     std::[01;31m[Kvector[m[K<std::thread> workers;         // 工人线程们
+[1.137s]       |          [01;31m[K^~~~~~[m[K
+[1.140s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[1.140s]   +++ |+[32m[K#include <vector>[m[K
+[1.141s]     1 | class SimpleThreadPool {
+[1.143s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:4:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kqueue[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[1.144s]     4 |     std::[01;31m[Kqueue[m[K<std::shared_ptr<std::function<void()>>> tasks;  // 任务队列
+[1.146s]       |          [01;31m[K^~~~~[m[K
+[1.146s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::queue[m[K’ is defined in header ‘[01m[K<queue>[m[K’; did you forget to ‘[01m[K#include <queue>[m[K’?
+[1.146s]   +++ |+[32m[K#include <queue>[m[K
+[1.146s]     1 | class SimpleThreadPool {
+[1.147s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:6:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[1.147s]     6 |     std::[01;31m[Kmutex[m[K queue_mutex;
+[1.147s]       |          [01;31m[K^~~~~[m[K
+[1.147s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::mutex[m[K’ is defined in header ‘[01m[K<mutex>[m[K’; did you forget to ‘[01m[K#include <mutex>[m[K’?
+[1.147s]   +++ |+[32m[K#include <mutex>[m[K
+[1.147s]     1 | class SimpleThreadPool {
+[1.147s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:7:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcondition_variable[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[1.148s]     7 |     std::[01;31m[Kcondition_variable[m[K condition;
+[1.148s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.148s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::condition_variable[m[K’ is defined in header ‘[01m[K<condition_variable>[m[K’; did you forget to ‘[01m[K#include <condition_variable>[m[K’?
+[1.148s]   +++ |+[32m[K#include <condition_variable>[m[K
+[1.148s]     1 | class SimpleThreadPool {
+[1.152s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:12:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Knum_threads[m[K’
+[1.152s]    12 |     SimpleThreadPool[34m[K([m[Ksize_t[01;31m[K [m[K[32m[Knum_threads[m[K) : stop(false) {
+[1.152s]       |                     [34m[K~[m[K      [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+[1.152s]       |                            [32m[K)[m[K
+[1.153s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[1.153s]    46 |     [01;31m[Ksize_t[m[K pendingTasks() {
+[1.153s]       |     [01;31m[K^~~~~~[m[K
+[1.153s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[1.153s]   +++ |+[32m[K#include <cstddef>[m[K
+[1.153s]     1 | class SimpleThreadPool {
+[1.153s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:[m[K In member function ‘[01m[Kvoid SimpleThreadPool::[01;32m[Kenqueue[m[K(F&&)[m[K’:
+[1.153s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kunique_lock[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.153s]    41 |             std::[01;31m[Kunique_lock[m[K<std::mutex> lock(queue_mutex);
+[1.154s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[1.154s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unique_lock[m[K’ is defined in header ‘[01m[K<mutex>[m[K’; did you forget to ‘[01m[K#include <mutex>[m[K’?
+[1.154s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.154s]    41 |             std::unique_lock<std::[01;31m[Kmutex[m[K> lock(queue_mutex);
+[1.154s]       |                                   [01;31m[K^~~~~[m[K
+[1.154s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::mutex[m[K’ is defined in header ‘[01m[K<mutex>[m[K’; did you forget to ‘[01m[K#include <mutex>[m[K’?
+[1.154s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kqueue_mutex[m[K’ was not declared in this scope
+[1.154s]    41 |             std::unique_lock<std::mutex> lock([01;31m[Kqueue_mutex[m[K);
+[1.155s]       |                                               [01;31m[K^~~~~~~~~~~[m[K
+[1.157s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:42:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[Klock[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Klock[m[K’ must be available [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.158s]    41 |             std::unique_lock<std::mutex> [01;31m[Klock[m[K(queue_mutex);
+[1.158s]       |                                          [01;31m[K^~~~[m[K
+[1.158s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:42:[m[K [01;36m[Knote: [m[K(if you use ‘[01m[K-fpermissive[m[K’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+[1.158s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktasks[m[K’ was not declared in this scope; did you mean ‘[01m[Ktask[m[K’?
+[1.158s]    42 |             [01;31m[Ktasks[m[K.emplace(std::make_shared<std::function<void()>>(std::move(task)));
+[1.158s]       |             [01;31m[K^~~~~[m[K
+[1.158s]       |             [32m[Ktask[m[K
+[1.158s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.158s]    42 |             tasks.emplace(std::[01;31m[Kmake_shared[m[K<std::function<void()>>(std::move(task)));
+[1.158s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[1.158s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[1.158s]   +++ |+[32m[K#include <memory>[m[K
+[1.159s]     1 | class SimpleThreadPool {
+[1.159s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kfunction[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.159s]    42 |             tasks.emplace(std::make_shared<std::[01;31m[Kfunction[m[K<void()>>(std::move(task)));
+[1.159s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[1.160s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::function[m[K’ is defined in header ‘[01m[K<functional>[m[K’; did you forget to ‘[01m[K#include <functional>[m[K’?
+[1.161s]   +++ |+[32m[K#include <functional>[m[K
+[1.162s]     1 | class SimpleThreadPool {
+[1.162s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:42:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.162s]    42 |             tasks.emplace(std::make_shared<std::function<void()>>(std::[01;31m[Kmove[m[K(task)));
+[1.163s]       |                                                                        [01;31m[K^~~~[m[K
+[1.163s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::move[m[K’ is defined in header ‘[01m[K<utility>[m[K’; did you forget to ‘[01m[K#include <utility>[m[K’?
+[1.163s]   +++ |+[32m[K#include <utility>[m[K
+[1.163s]     1 | class SimpleThreadPool {
+[1.164s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcondition[m[K’ was not declared in this scope
+[1.164s]    44 |         [01;31m[Kcondition[m[K.notify_one();  // 叫醒一个睡觉的工人
+[1.164s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.165s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:[m[K In member function ‘[01m[Kvoid SimpleThreadPool::[01;32m[Kshutdown[m[K()[m[K’:
+[1.165s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kunique_lock[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.165s]    52 |             std::[01;31m[Kunique_lock[m[K<std::mutex> lock(queue_mutex);
+[1.165s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[1.165s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unique_lock[m[K’ is defined in header ‘[01m[K<mutex>[m[K’; did you forget to ‘[01m[K#include <mutex>[m[K’?
+[1.165s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.165s]    52 |             std::unique_lock<std::[01;31m[Kmutex[m[K> lock(queue_mutex);
+[1.166s]       |                                   [01;31m[K^~~~~[m[K
+[1.166s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:35:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::mutex[m[K’ is defined in header ‘[01m[K<mutex>[m[K’; did you forget to ‘[01m[K#include <mutex>[m[K’?
+[1.166s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kqueue_mutex[m[K’ was not declared in this scope
+[1.166s]    52 |             std::unique_lock<std::mutex> lock([01;31m[Kqueue_mutex[m[K);
+[1.166s]       |                                               [01;31m[K^~~~~~~~~~~[m[K
+[1.167s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:52:42:[m[K [01;31m[Kerror: [m[K‘[01m[Klock[m[K’ was not declared in this scope
+[1.167s]    52 |             std::unique_lock<std::mutex> [01;31m[Klock[m[K(queue_mutex);
+[1.167s]       |                                          [01;31m[K^~~~[m[K
+[1.170s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcondition[m[K’ was not declared in this scope
+[1.171s]    55 |         [01;31m[Kcondition[m[K.notify_all();
+[1.171s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.171s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.171s]    56 |         for (std::[01;31m[Kthread[m[K &worker : workers) {
+[1.172s]       |                   [01;31m[K^~~~~~[m[K
+[1.172s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::thread[m[K’ is defined in header ‘[01m[K<thread>[m[K’; did you forget to ‘[01m[K#include <thread>[m[K’?
+[1.172s]   +++ |+[32m[K#include <thread>[m[K
+[1.172s]     1 | class SimpleThreadPool {
+[1.172s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:34:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[1.173s]    56 |         for (std::thread &worker [01;31m[K:[m[K workers) {
+[1.173s]       |                                  [01;31m[K^[m[K
+[1.173s]       |                                  [32m[K::[m[K
+[1.173s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kworker[m[K’ has not been declared
+[1.173s]    56 |         for (std::thread &[01;31m[Kworker[m[K : workers) {
+[1.173s]       |                           [01;31m[K^~~~~~[m[K
+[1.173s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.173s]    59 |     [01;31m[K}[m[K
+[1.173s]       |     [01;31m[K^[m[K
+[1.173s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.173s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.173s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[1.173s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:56:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.173s]    56 |         for [01;36m[K([m[Kstd::thread &worker : workers) {
+[1.174s]       |             [01;36m[K^[m[K
+[1.174s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.174s]    59 |     [01;31m[K}[m[K
+[1.174s]       |     [01;31m[K^[m[K
+[8.577s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:[m[K In constructor ‘[01m[KImageProcessorNode::[01;32m[KImageProcessorNode[m[K()[m[K’:
+[8.582s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:9:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimpleThreadPool::SimpleThreadPool(int)[m[K’
+[8.588s]     9 |     ImageProcessorNode() : Node("image_processor"), [01;31m[Kpool_(4)[m[K {
+[8.588s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[8.590s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KSimpleThreadPool::[01;32m[KSimpleThreadPool[m[K()[m[K’
+[8.591s]     1 | class [01;36m[KSimpleThreadPool[m[K {
+[8.592s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.592s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[8.592s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr SimpleThreadPool::[01;32m[KSimpleThreadPool[m[K(const SimpleThreadPool&)[m[K’
+[8.592s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:1:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst SimpleThreadPool&[m[K’
+[8.647s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.656s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[8.656s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+[8.656s]                  from [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:2[m[K:
+[8.656s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:[m[K In lambda function:
+[8.657s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:17:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SimpleThreadPool[m[K’ has no member named ‘[01m[KpendingTasks[m[K’
+[8.657s]    17 |             RCLCPP_INFO(this->get_logger(), "队列积压: %zu", pool_.[01;31m[KpendingTasks[m[K());
+[8.657s]       |                                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[9.202s] /home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp: In instantiation of ‘[01m[Kvoid SimpleThreadPool::[01;32m[Kenqueue[m[K(F&&) [35m[K[with F = ImageProcessorNode::ImageProcessorNode()::<lambda(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)>::<lambda()>][m[K[m[K’:
+[9.203s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/src/image_processor_node.cpp:13:30:[m[K   required from here
+[9.203s] [01m[K/home/ros/Robot/ros2_ws/src/sensor_processor/include/sensor_processor/thread_pool.hpp:41:58:[m[K [01;31m[Kerror: [m[K‘[01m[Klock[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::lock[m[K’?
+[9.203s]    41 |             std::unique_lock<std::mutex> lock(queue_mutex[01;31m[K)[m[K;
+[9.203s]       |                                                          [01;31m[K^[m[K
+[9.204s]       |                                                          [32m[Kstd::lock[m[K
+[9.204s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:21[m[K,
+[9.204s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K,
+[9.205s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K:
+[9.207s] [01m[K/usr/include/c++/13/mutex:693:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::lock[m[K’ declared here
+[9.215s]   693 |     [01;36m[Klock[m[K(_L1& __l1, _L2& __l2, _L3&... __l3)
+[9.215s]       |     [01;36m[K^~~~[m[K
+[14.787s] gmake[2]: *** [CMakeFiles/image_processor.dir/build.make:76: CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o] Error 1
+[14.790s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processor.dir/all] Error 2
+[14.790s] gmake: *** [Makefile:146: all] Error 2
+[14.804s] Invoked command in '/home/ros/Robot/ros2_ws/build/sensor_processor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2

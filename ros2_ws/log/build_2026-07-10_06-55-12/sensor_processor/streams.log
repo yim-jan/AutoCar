@@ -1,0 +1,25 @@
+[0.024s] Invoking command in '/home/ros/Robot/ros2_ws/build/sensor_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processor.dir/src/image_processor_node.cpp.o[0m
+[14.437s] [100%] [32m[1mLinking CXX executable image_processor[0m
+[17.035s] [100%] Built target image_processor
+[17.085s] Invoked command in '/home/ros/Robot/ros2_ws/build/sensor_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros/Robot/ros2_ws/build/sensor_processor -- -j2 -l2
+[17.133s] Invoking command in '/home/ros/Robot/ros2_ws/build/sensor_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros/Robot/ros2_ws/build/sensor_processor
+[17.165s] -- Install configuration: ""
+[17.166s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/lib/sensor_processor/image_processor
+[17.177s] -- Set non-toolchain portion of runtime path of "/home/ros/Robot/ros2_ws/install/sensor_processor/lib/sensor_processor/image_processor" to ""
+[17.179s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/ament_index/resource_index/package_run_dependencies/sensor_processor
+[17.180s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/ament_index/resource_index/parent_prefix_path/sensor_processor
+[17.183s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/ament_prefix_path.sh
+[17.187s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/ament_prefix_path.dsv
+[17.197s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/path.sh
+[17.198s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/environment/path.dsv
+[17.199s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.bash
+[17.205s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.sh
+[17.205s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.zsh
+[17.205s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/local_setup.dsv
+[17.207s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/package.dsv
+[17.209s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/ament_index/resource_index/packages/sensor_processor
+[17.211s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/cmake/sensor_processorConfig.cmake
+[17.211s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/cmake/sensor_processorConfig-version.cmake
+[17.215s] -- Installing: /home/ros/Robot/ros2_ws/install/sensor_processor/share/sensor_processor/package.xml
+[17.221s] Invoked command in '/home/ros/Robot/ros2_ws/build/sensor_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/Robot/ros2_ws/install/py_sub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros/Robot/ros2_ws/build/sensor_processor

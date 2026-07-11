@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(ThreadPoolDemo)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED On)
+find_package(Threads REQUIRED)
+add_executable(threadpool threadpool.cpp)
+target_link_libraries(threadpool PRIVATE Threads::Threads)
